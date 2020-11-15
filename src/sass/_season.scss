@@ -1,0 +1,33 @@
+// 시즌 컨테이너
+.season-container{
+  background-color: $season-bg-color;
+  color: $season-text-color;
+}
+.season{
+  padding: 83px 919px 120px 119px;
+  text-align: center;
+  position: relative;
+}
+.season__beverage-list{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.season__description-text1,
+.season__description-text2{
+  font-size: 4rem;
+}
+.season__description-text3,
+.season__description-text4{
+  font-size: 9rem;
+  font-weight: 700;
+  color: $season-text-color2;
+}
+.season__description-text5{
+  font-size: 2.8rem;
+}
+.season__more{
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: $season-text-color2;
+}
