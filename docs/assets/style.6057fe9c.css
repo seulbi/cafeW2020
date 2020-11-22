@@ -508,7 +508,8 @@ body *, body :after, body :before {
 
 .coffee-lab__lab-list {
   width: 1200px;
-  display: flex
+  display: flex;
+  margin: 0 auto;
 }
 
 .coffee-lab__lab-item {
